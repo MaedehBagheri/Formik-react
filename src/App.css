@@ -1,8 +1,4 @@
-.App {
-display: flex;
-  padding-top: 30px;
-  justify-content:center ;
-}
+
 
 label{
   display: flex;
@@ -10,7 +6,23 @@ label{
   font-weight: 800;
 }
 
-input{
+.App {
+  display: flex;
+    /* padding-top: 30px; */
+    justify-content:center ;
+    align-items: center;
+    flex-direction :column;
+  }
+input + label{
+font-weight: bold;
+display: inline-flex;
+margin-right: 20px;
+margin-left: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],select{
   width: 400px;
   padding: 6px 12px;
   display: block;
@@ -20,6 +32,14 @@ input{
   border-radius: 4px;
 }
 
+select{
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
 .formcontrol{
   margin-bottom: 20px;
+}
+
+.validate{
+  color: red;
 }

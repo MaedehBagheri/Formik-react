@@ -1,6 +1,6 @@
 
 import './App.css';
-import SignupForm from './components/Signup';
+import SignupForm from './components/SignupForm';
 
 function App() {
 
